@@ -11,3 +11,7 @@ This project is for creating desktop app.
 npm install;
 npm run tauri dev;
 ```
+
+## Change title for this project
+1. Open file: src-tauri/tauri.conf.json
+2. Then you can modify value in json file. (Place is { "app": { "windows": { "title": "<modify if you want app title>" } } })
